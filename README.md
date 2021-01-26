@@ -1,0 +1,2 @@
+# Logic-and-set-theory-application
+ This project consists of one application (C#) that does the following functionalities: Parse the Boolean logic formula and show the tree-like structure image using recursion, calculate the truth table of the inputted formula and its hash code, calculate the simplified truth table using the Quine-McCluskey Algorithm, calculate the disjunctive normal form (DNF) of a Boolean formula and its NAND-ified (NOT AND) form, implementation of the proof procedure with semantic tableaux for proposition formulas, including predicate formulas.
