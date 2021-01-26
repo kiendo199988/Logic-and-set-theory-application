@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LPP_App.AlphaElement">
+    <Position X="1.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlphaElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.BetaElement">
+    <Position X="5.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BetaElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.BiImplicationNode">
+    <Position X="7" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>BiImplicationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.BitArrayHandler">
+    <Position X="16.25" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>BitArrayHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.ConjunctionNode">
+    <Position X="24.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ConjunctionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.DeltaElement">
+    <Position X="10" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAA=</HashCode>
+      <FileName>DeltaElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.DisjunctionNode">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>DisjunctionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.DisjunctiveNormalFormHandler">
+    <Position X="19.5" Y="12.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAE=</HashCode>
+      <FileName>DisjunctiveNormalFormHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.ExistQuantifierNode">
+    <Position X="9" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAAAAAAAAABAAAAAAAAAAAAAAAABAAIAA=</HashCode>
+      <FileName>ExistQuantifierNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.FalseNode">
+    <Position X="20.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAACBAAAAA=</HashCode>
+      <FileName>FalseNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.FinalizedElement">
+    <Position X="7.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FinalizedElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.Form1" Collapsed="true">
+    <Position X="25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/5Cz50VEQCUMRRQBIBipJCQSCC0MFphCAezIAQCRJHA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.GammaElement">
+    <Position X="3.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GammaElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.HashCodeCalculator">
+    <Position X="22.5" Y="12.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>HashCodeCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.ImplicationNode">
+    <Position X="11" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ImplicationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.NandNode">
+    <Position X="22.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>NandNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.NegationNode">
+    <Position X="27" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>NegationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.ObjectVariableNode">
+    <Position X="11" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAICACAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectVariableNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.PredicateNode">
+    <Position X="2.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAAIAoIAAAAAAAABAAAAAAAAAAAAAAAADAAAAA=</HashCode>
+      <FileName>PredicateNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.Program" Collapsed="true">
+    <Position X="25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.Proposition">
+    <Position X="13.25" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BIAQgwEhQQAAAIAAACAEAAAEAEALBUAAACAUAAAEEIU=</HashCode>
+      <FileName>Proposition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.PropositionalNode">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJACAAAAIAoAIJAQABEAFBAABAAIAACACACAABAACAA=</HashCode>
+      <FileName>PropositionalNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.SemanticTableaux">
+    <Position X="8" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAAAAAAAAAACQAAAAAAAAEAQQgQAAACAAAAAA=</HashCode>
+      <FileName>SemanticTableaux.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.SemanticTableauxElement">
+    <Position X="5.5" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAICAAAEAAAAAIAcCAEAAAAAAAAAAEIAAACAAgABAAA=</HashCode>
+      <FileName>SemanticTableauxElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.SetOfProps">
+    <Position X="2.75" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAEAAAAAAAAQABRAEAAIKCAAAAABAAAAAggA=</HashCode>
+      <FileName>SetOfProps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.SimplifiedTruthTable">
+    <Position X="22.25" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>SimplifiedTruthTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.TrueNode">
+    <Position X="17.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>TrueNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.TruthTable">
+    <Position X="16.25" Y="15.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ECAEAQAAAAAAAAAIAABAAIAEAABAAAgBAAEMAEREgAA=</HashCode>
+      <FileName>TruthTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.TruthTableRow">
+    <Position X="19.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAgQAAAAAAAEAAAAAAAAAABEAAABkAA=</HashCode>
+      <FileName>TruthTableRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.UniversalQuantifierNode">
+    <Position X="29.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAAAAAAAAABAAAAAAAAAAAAAAAABAAIAA=</HashCode>
+      <FileName>UniversalQuantifierNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.VariableNode">
+    <Position X="5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAgAQAAAAAAAAAAABAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>VariableNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.Properties.Resources" Collapsed="true">
+    <Position X="25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LPP_App.Properties.Settings" Collapsed="true">
+    <Position X="25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

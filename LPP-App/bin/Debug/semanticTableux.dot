@@ -1,0 +1,91 @@
+graph logic{node [ fontname = "arial"]
+node0 [ label = "¬(((¬(@x.((F(x)ΛG(x))))ν(@x.(F(x))Λ@x.(G(x))))Λ(@x.((F(x)ΛG(x)))ν¬((@x.(F(x))Λ@x.(G(x)))))))
+" ]
+node0 -- node1
+node1 [ label = "¬((¬(@x.((F(x)ΛG(x))))ν(@x.(F(x))Λ@x.(G(x)))))
+" ]
+node1 -- node3
+node3 [ label = "@x.((F(x)ΛG(x)))
+¬((@x.(F(x))Λ@x.(G(x))))
+" ]
+node3 -- node7
+node7 [ label = "@x.((F(x)ΛG(x)))
+¬(@x.(F(x)))
+" ]
+node7 -- node15
+node15 [ label = "@x.((F(x)ΛG(x)))
+¬(F(a))
+{ a }" ]
+node15 -- node31
+node31 [ label = "@x.((F(x)ΛG(x)))
+¬(F(a))
+(F(a)ΛG(a))
+{ a }" ]
+node31 -- node63
+node63 [ label = "@x.((F(x)ΛG(x)))
+¬(F(a))
+F(a)
+G(a)
+X - Closed!" ]
+node3 -- node8
+node8 [ label = "@x.((F(x)ΛG(x)))
+¬(@x.(G(x)))
+" ]
+node8 -- node17
+node17 [ label = "@x.((F(x)ΛG(x)))
+¬(G(a))
+{ a }" ]
+node17 -- node35
+node35 [ label = "@x.((F(x)ΛG(x)))
+¬(G(a))
+(F(a)ΛG(a))
+{ a }" ]
+node35 -- node71
+node71 [ label = "@x.((F(x)ΛG(x)))
+¬(G(a))
+F(a)
+G(a)
+X - Closed!" ]
+node0 -- node2
+node2 [ label = "¬((@x.((F(x)ΛG(x)))ν¬((@x.(F(x))Λ@x.(G(x))))))
+" ]
+node2 -- node5
+node5 [ label = "¬(@x.((F(x)ΛG(x))))
+(@x.(F(x))Λ@x.(G(x)))
+" ]
+node5 -- node11
+node11 [ label = "¬(@x.((F(x)ΛG(x))))
+@x.(F(x))
+@x.(G(x))
+" ]
+node11 -- node23
+node23 [ label = "@x.(F(x))
+@x.(G(x))
+¬((F(a)ΛG(a)))
+{ a }" ]
+node23 -- node47
+node47 [ label = "@x.(F(x))
+@x.(G(x))
+¬(F(a))
+{ a }" ]
+node47 -- node95
+node95 [ label = "@x.(F(x))
+@x.(G(x))
+¬(F(a))
+F(a)
+G(a)
+X - Closed!" ]
+node23 -- node48
+node48 [ label = "@x.(F(x))
+@x.(G(x))
+¬(G(a))
+{ a }" ]
+node48 -- node97
+node97 [ label = "@x.(F(x))
+@x.(G(x))
+¬(G(a))
+F(a)
+G(a)
+X - Closed!" ]
+
+}

@@ -1,0 +1,8 @@
+graph logic{node [ fontname = "arial"]
+node0 [label="a"]
+node1 [label="~"]
+node2 [label="a"]
+node3 [label="~"]
+node1 -- node0
+node3 -- node2
+}

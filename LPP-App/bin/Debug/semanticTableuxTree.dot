@@ -1,0 +1,71 @@
+graph logic{node [ fontname = "arial"]
+node0 [ label = "¬(((P→Q)→((R→(P→Q))∧((P∧R)→Q))))
+"]
+node0 -- node1
+node1 [ label = "(P→Q)
+¬(((R→(P→Q))∧((P∧R)→Q)))
+"]
+node1 -- node3
+node3 [ label = "¬(P)
+¬(((R→(P→Q))∧((P∧R)→Q)))
+"]
+node3 -- node7
+node7 [ label = "¬(P)
+¬((R→(P→Q)))
+"]
+node7 -- node15
+node15 [ label = "¬(P)
+R
+¬((P→Q))
+"]
+node15 -- node31
+node31 [ label = "¬(P)
+R
+P
+¬(Q)
+"shape = boxfillcolor = lightgray]
+node3 -- node8
+node8 [ label = "¬(P)
+¬(((P∧R)→Q))
+"]
+node8 -- node17
+node17 [ label = "¬(P)
+(P∧R)
+¬(Q)
+"]
+node17 -- node35
+node35 [ label = "¬(P)
+P
+R
+¬(Q)
+"shape = boxfillcolor = lightgray]
+node1 -- node4
+node4 [ label = "Q
+¬(((R→(P→Q))∧((P∧R)→Q)))
+"]
+node4 -- node9
+node9 [ label = "Q
+¬((R→(P→Q)))
+"]
+node9 -- node19
+node19 [ label = "Q
+R
+¬((P→Q))
+"]
+node19 -- node39
+node39 [ label = "Q
+R
+P
+¬(Q)
+"shape = boxfillcolor = lightgray]
+node4 -- node10
+node10 [ label = "Q
+¬(((P∧R)→Q))
+"]
+node10 -- node21
+node21 [ label = "Q
+(P∧R)
+¬(Q)
+"shape = boxfillcolor = lightgray]
+
+}
